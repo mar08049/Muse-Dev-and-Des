@@ -1,1 +1,13 @@
 
+h1 {
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+html {
+  background: url("https://images8.alphacoders.com/453/thumb-1920-453945.jpg")
+}
