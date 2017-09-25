@@ -15,13 +15,13 @@ h2 {
   height: 35px;
 }
 
-h4 {
+h3 {
   font-family: 'Voltaire', sans-serif;
   color: white;
   font-weight: 100;
   font-size: 3em;
   margin-left: 30px;
-  margin-top: 100px;
+  margin-top: 75px;
   width: 650px;
   height: 100px;
   padding: 0;
@@ -39,7 +39,7 @@ ul {
   overflow: hidden;
   width: 83%;
   float: right;
-  margin-top: 0;
+  margin-top: 16px;
   border-bottom: solid;
   border-color: white;
   border-width: 1px;
@@ -47,10 +47,23 @@ ul {
 
 li {
     float: right;
+    padding-right: 20px;
+
 }
 
+a { color:white;
+    text-decoration: none;
+  } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:white; }
+a:hover a:active { text-decoration: none; color:white; }
+
 li a {
-    display: block;
+    display: inline;;
     color: white;
     text-align: center;
     padding-right: 75px;
@@ -62,8 +75,15 @@ li a {
 .scroll {
   font-family: 'Voltaire', sans-serif;
   color: white;
-  margin-top: 525px;
+  margin-top: 450px;
   text-align: center;
+  font-size: 2em;
+  width: 95%;
+  height: 200px;
+  background-color: black;
+  opacity: .6;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 h2.visited  {
@@ -79,4 +99,34 @@ h2.visited  {
   width: 100%;
   height: 35px;
   text-decoration: none;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  opacity: .7;
+}
+
+
+.about-section {
+  background-color: black;
+  color: white;
+  text-align: left;
+  width: 54.5%;
+  font-size: 1.3em;
+  margin-left: 20px;
+  margin-top: 100px;
+  padding: 20px;
+  line-height: 150%;
+  opacity: .7;
+  display: inline-block;
+}
+.wedding-photo {
+  float: right;
+  width: 500px;
+  height: 700px;
+  margin-right: 20px;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
